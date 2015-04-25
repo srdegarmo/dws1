@@ -111,10 +111,17 @@ p a {
 	float: left;
 	width: 300px;
 	margin: 10px;
+	padding: 5px;
 }
 
 .column2 {
 	float: left;
 	width: 600px;
 	margin: 10px;
+	padding: 5px;
+}
+
+/* SOCCER FIELD IMAGE */
+#field{
+	veritacl-align: middle;
 }
