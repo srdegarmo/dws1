@@ -5,7 +5,7 @@ body {
 	text-align: justify;
 	font-size: 15px;
 	color: #737373;
-	background-color: rgba(250, 235, 215);
+	background-color: rgba(250, 235, 215, 0.5);
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,6 +33,7 @@ a:active {
 
 /*	PAGE TITLE (H1)	*/
 h1{
+	
 	width: 400px;
 	height:35px;
 	background-color: #228B22;
@@ -43,7 +44,7 @@ h1{
 	text-shadow: 2.5px 4px 6px #DCDCDC;
 	border: double 10px white;
 	padding: 40px;
-	margin: 15px;
+	margin: 15px auto 15px auto;
 }
 
 /*	MAIN NAV (ul w/ ID = #MainNav)
@@ -82,8 +83,10 @@ p {
 
 /*	FIGURE	*/
 figure {
-	border: 2px solid #DCDCDC;
+	border: 2px none #DCDCDC;
 	padding: 10px;
+	display: inline;
+	
 }
 
 /*	FIGCAPTION	*/
@@ -102,4 +105,16 @@ p a {
 	font-size: 13px
 	font-weight: bold;
 	text-transform: uppercase;
+}
+/* COLUMNS */
+.column1 {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+.column2 {
+	float: left;
+	width: 600px;
+	margin: 10px;
 }
