@@ -1,0 +1,135 @@
+/*	BODY	*/
+body {
+	font-family: Arial, Helvetica sans-serif;
+	line-height: 1.5em;
+	text-align: justify;
+	font-size: 0.9375em;
+	color: #000000;
+	background-color: rgba(250, 235, 215, 0.5);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/* PAGE BACKGROUND */
+	background-image: url("../images/grass.jpg")
+}
+
+/* unvisited */
+a:link {
+	color: #737373;
+	text-decoration: none;
+}
+/* visited */
+a:visited {
+	color: #CCCCCC;
+	text-decoration: line-through;
+}
+/* hover */
+a:hover {
+	color: #228B22;
+	text-transform: uppercase;
+}
+/* active */
+a:active {
+	color: #000000;	
+}
+
+/*	PAGE TITLE (H1)	*/
+h1{
+	
+	width: 400px;
+	height:35px;
+	font-size: 4.5em;
+	background-color: #228B22;
+	color: ffffff;	
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2.5px 4px 6px #DCDCDC;
+	border: double 10px white;
+	padding: 40px;
+	margin: 15px auto 15px auto;
+	/* SOCCER BALL ICON */
+	background-image: url("../images/soccerBall.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*	MAIN NAV (ul w/ ID = #MainNav)
+INCLUDE CSS FOR ACTIVE/VIEWED/UNVIEWED/HOVER STYLES	*/
+#MainNav{
+	font-size: 1.0625em;
+	list-style-type: disc;		
+}
+
+/*	SECTION TITLES (H2)	*/
+h2{
+	text-align: left;
+	font-weight: bold;
+	color: 000000;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*	SECTION SUBTITLES (H3)	*/
+h3{
+	text-align: left;
+	font-style: italic;
+	color: #228B22;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*	QUICK FACTS UL	*/
+ul{
+	text-align: left;
+	font-size: 0.875em;
+	list-style-type: circle;
+}
+
+/*	PARAGRAPHS	*/
+p {
+	text-indent: 15px;
+}
+
+/*	FIGURE	*/
+figure {
+	border: 2px none #DCDCDC;
+	padding: 10px;
+	display: inline;
+	
+}
+
+/*	FIGCAPTION	*/
+figcaption {
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+/*	WORLDSBEST PLAYERS LIST (OL)	*/
+ol{
+	list-style-type: decimal;
+}
+
+/*	LINK TO TOP (<A HREF="">)	*/
+p a {
+	font-size: 0.8125em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* COLUMNS */
+.column1 {
+	float: left;
+	width: 30%;
+	margin: 1%;
+	padding: 0.5%;
+}
+
+.column2 {
+	float: left;
+	width: 50%;
+	margin: 1%;
+	padding: 0.5%;
+}
+
+p, ul, ol, li{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+}
