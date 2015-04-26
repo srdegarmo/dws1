@@ -3,10 +3,10 @@ body {
 	font-family: Arial, Helvetica sans-serif;
 	line-height: 1.5em;
 	text-align: justify;
-	font-size: 15px;
+	font-size: 0.9375em;
 	color: #737373;
 	background-color: rgba(250, 235, 215, 0.5);
-	width: 1200px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -37,7 +37,7 @@ h1{
 	width: 400px;
 	height:35px;
 	background-color: #228B22;
-	font-size: 72px;
+	font-size: 4.5em;
 	color: ffffff;	
 	text-align: center;
 	text-transform: uppercase;
@@ -50,7 +50,7 @@ h1{
 /*	MAIN NAV (ul w/ ID = #MainNav)
 INCLUDE CSS FOR ACTIVE/VIEWED/UNVIEWED/HOVER STYLES	*/
 #MainNav{
-	font-size: 17px;
+	font-size: 1.0625em;
 	list-style-type: disc;	
 }
 
@@ -72,7 +72,7 @@ h3{
 /*	QUICK FACTS UL	*/
 ul{
 	text-align: left;
-	font-size: 14px;
+	font-size: 0.875em;
 	list-style-type: circle;
 }
 
@@ -91,7 +91,7 @@ figure {
 
 /*	FIGCAPTION	*/
 figcaption {
-	font-size: 12px;
+	font-size: 0.75em;
 	font-style: italic;
 }
 
@@ -102,26 +102,21 @@ ol{
 
 /*	LINK TO TOP (<A HREF="">)	*/
 p a {
-	font-size: 13px
+	font-size: 0.8125em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 /* COLUMNS */
 .column1 {
 	float: left;
-	width: 300px;
-	margin: 10px;
-	padding: 5px;
+	width: 30%;
+	margin: 1%;
+	padding: 0.5%;
 }
 
 .column2 {
 	float: left;
-	width: 600px;
-	margin: 10px;
-	padding: 5px;
-}
-
-/* SOCCER FIELD IMAGE */
-#field{
-	veritacl-align: middle;
+	width: 50%;
+	margin: 1%;
+	padding: 0.5%;
 }
